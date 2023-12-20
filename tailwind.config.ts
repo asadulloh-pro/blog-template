@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
     colors: {
       // Red
-      "prime": "#D92E15",
+      prime: "#D92E15",
       "prime-dark": "#C62A13",
       "prime-mid": "#FFD7D3",
       "prime-light": "#FFE6E3",
@@ -22,13 +22,15 @@ const config: Config = {
       "gray-sec": "#F3F3F5",
       light: "#fff",
       warning: "#FFA755",
-      success: "#36B82C"
+      success: "#36B82C",
     },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      boxShadow: {
+        button: "0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
+        "button-primary-active":
+          "0px 0px 0px 4px rgba(255, 87, 51, 0.05), 0px 1px 2px 0px rgba(255, 87, 51, 0.05)",
+        "button-default-active":
+          "0px 0px 0px 4px #F2F4F5, 0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
       },
     },
   },

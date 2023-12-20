@@ -1,9 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "./fonts.css";
 
 html {
   @apply bg-light;
+}
+
+body {
+  font-family: "Golos Text", sans-serif;
 }
 
 .gradient-bottom-top {
