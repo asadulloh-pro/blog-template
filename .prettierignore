@@ -1,0 +1,30 @@
+# Ignore build output
+.next/
+
+# Ignore Node.js modules
+node_modules/
+
+# Ignore version control directories
+/.git
+/.svn
+/.hg
+
+# Ignore specific files
+*.log
+*.json
+*.md
+*.css
+*.yaml
+*.yml
+*.ico
+*.prettierignore
+*.gitignore
+*.eslintignore
+
+# Ignore API routes (if you have them in a specific directory)
+/api/**
+
+# Ignore public assets (if you have them in a specific directory)
+/public/**
+
+# Add any other files or directories you want to ignore
