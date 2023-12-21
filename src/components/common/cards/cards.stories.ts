@@ -11,7 +11,7 @@ const meta = {
   },
   argTypes: {
     type: {
-      options: ["primary", "secondary", "additional"],
+      options: ["primary", "secondary", "additional", "alpha"],
       control: { type: "radio" },
     },
   },

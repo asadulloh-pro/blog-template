@@ -3,7 +3,7 @@ import { FC, HTMLProps, useMemo } from "react";
 export type ButtonType = {
   size?: keyof typeof sizes;
   type?: keyof typeof types;
-  hmltType?: "button" | "submit" | "reset";
+  hmltType?: 'button' | "submit" | "reset";
   disabled?: boolean;
 } & Pick<
   HTMLProps<HTMLButtonElement>,

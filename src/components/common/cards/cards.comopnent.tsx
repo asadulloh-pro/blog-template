@@ -5,7 +5,9 @@ import { BlogCardType } from "./types";
 export const cards = {
   primary: dynamic(() => import("./card-types/primary.component")),
   secondary: dynamic(() => import("./card-types/secondary.component")),
+  alpha: dynamic(() => import("./card-types/alpha.component")),
   additional: dynamic(() => import("./card-types/additional.component")),
+  bettta: dynamic(() => import("./card-types/additional.component")),
 };
 
 export type CardsType = {
