@@ -5,7 +5,11 @@ import data from "@/constants/card-data.json";
 
 export default function Home() {
   return (
-    <main className={"flex items-center justify-center min-h-[100vh] container mx-auto"}>
+    <main
+      className={
+        "flex items-center justify-center min-h-[100vh] container mx-auto"
+      }
+    >
       {/* <Button type="primary" size="xl" disabled>
         Button CTA
       </Button> */}
