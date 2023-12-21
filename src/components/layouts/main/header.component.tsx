@@ -1,4 +1,4 @@
-import SvgIcon from "@/components/common/svg-icon.component";
+import SvgIcon from "@/components/common/svg-icon/svg-icon.component";
 
 const Header = () => {
   return (

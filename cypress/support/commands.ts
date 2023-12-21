@@ -37,4 +37,5 @@
 // }
 
 // Prevent TypeScript from reading file as legacy script
+import "../../src/styles/main.css";
 export {};

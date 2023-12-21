@@ -5,7 +5,10 @@ export type ButtonType = {
   type?: keyof typeof types;
   hmltType?: "button" | "submit" | "reset";
   disabled?: boolean;
-} & Pick<HTMLProps<HTMLButtonElement>, "className" | "children" | "aria-label">;
+} & Pick<
+  HTMLProps<HTMLButtonElement>,
+  "className" | "children" | "aria-label" | "onClick"
+>;
 
 export const sizes = {
   sm: "py-[0.5rem] px-[0.88rem] text-[0.875rem] font-[500] leading-[1.25rem] rounded-[0.5rem]",

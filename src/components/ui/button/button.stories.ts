@@ -18,5 +18,6 @@ export const Primary: Story = {
     children: "Example Button",
     type: "primary",
     size: "md",
+    onClick: () => {},
   },
 };

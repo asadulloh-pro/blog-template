@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Additional Card component 1`] = `
+<div>
+  <a
+    class="flex gap-[1rem]  group bg-prime-light rounded-[0.75rem] overflow-hidden max-w-[35.5rem] w-full"
+    href="/"
+  >
+    <div>
+      <img
+        alt="Primary card's image"
+        class="w-[17rem] h-[17rem] max-w-[17rem] max-h-[17rem] object-cover object-center rounded-[0.75rem]"
+        data-nimg="1"
+        decoding="async"
+        height="100"
+        loading="lazy"
+        src="/_next/image?url=%2Fmock%2Fcardimage.jpg&w=256&q=75"
+        srcset="/_next/image?url=%2Fmock%2Fcardimage.jpg&w=128&q=75 1x, /_next/image?url=%2Fmock%2Fcardimage.jpg&w=256&q=75 2x"
+        style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+        width="100"
+      />
+    </div>
+    <div
+      class="p-[1.38rem] flex flex-col justify-center gap-[0.38] w-full"
+    >
+      <p
+        class="text-[0.875rem] font-[500] text-prime group-hover:text-dark transition-all"
+      >
+        Iphone
+      </p>
+      <p
+        class="text-[1.25rem] font-[700] leading-[150%] text-dark group-hover:text-prime transition-all line-clamp-3"
+      >
+        iPhone 15 Pro и iPhone 15 Pro Max — революция или эволюция?
+      </p>
+    </div>
+  </a>
+</div>
+`;
+
+exports[`renders Primary Card component 1`] = `
+<div>
+  <a
+    class="grid gap-[1rem] max-w-[24rem] group w-full"
+    href="/"
+  >
+    <div>
+      <img
+        alt="Primary card's image"
+        class="w-full h-auto max-h-[12.5rem] object-cover object-center rounded-[0.75rem]"
+        data-nimg="1"
+        decoding="async"
+        height="100"
+        loading="lazy"
+        src="/_next/image?url=%2Fmock%2Fcardimage.jpg&w=256&q=75"
+        srcset="/_next/image?url=%2Fmock%2Fcardimage.jpg&w=128&q=75 1x, /_next/image?url=%2Fmock%2Fcardimage.jpg&w=256&q=75 2x"
+        style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+        width="100"
+      />
+    </div>
+    <div>
+      <p
+        class="text-[0.875rem] font-[500] text-prime group-hover:text-dark transition-all"
+      >
+        Iphone
+      </p>
+      <p
+        class="text-[1.25rem] font-[700] leading-[150%] text-dark group-hover:text-prime transition-all"
+      >
+        iPhone 15 Pro и iPhone 15 Pro Max — революция или эволюция?
+      </p>
+    </div>
+    <div
+      class="flex items-center text-[0.875rem] font-[500] text-gray justify-between"
+    >
+      <div
+        class="flex items-center gap-[0.75rem]"
+      >
+        <span
+          class="flex items-center gap-[0.38rem]"
+        >
+          <svg
+            class="w-[1rem] h-[1rem] stroke-gray"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <use
+              height="100%"
+              width="100%"
+              xlink:href="/svg/sprite.svg#eye"
+            />
+          </svg>
+          124
+        </span>
+        <span
+          class="flex items-center gap-[0.38rem]"
+        >
+          <svg
+            class="w-[1rem] h-[1rem] stroke-gray"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <use
+              height="100%"
+              width="100%"
+              xlink:href="/svg/sprite.svg#time"
+            />
+          </svg>
+          9
+          min
+        </span>
+      </div>
+      <p
+        class="flex items-center"
+      >
+        29.11.2023
+      </p>
+    </div>
+  </a>
+</div>
+`;
+
+exports[`renders Secondary Card component 1`] = `
+<div>
+  <a
+    class="flex gap-[1rem] max-w-[24rem] group bg-gray-sec rounded-[0.75rem] overflow-hidden w-full"
+    href="/"
+  >
+    <div>
+      <img
+        alt="Primary card's image"
+        class="w-[9.5rem] h-[8rem] max-w-[8rem] max-h-[8rem] object-cover object-center rounded-[0.75rem]"
+        data-nimg="1"
+        decoding="async"
+        height="100"
+        loading="lazy"
+        src="/_next/image?url=%2Fmock%2Fcardimage.jpg&w=256&q=75"
+        srcset="/_next/image?url=%2Fmock%2Fcardimage.jpg&w=128&q=75 1x, /_next/image?url=%2Fmock%2Fcardimage.jpg&w=256&q=75 2x"
+        style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+        width="100"
+      />
+    </div>
+    <div
+      class="p-[1rem] grid gap-[0.38]"
+    >
+      <p
+        class="text-[0.75rem] font-[500] text-gray group-hover:text-dark transition-all"
+      >
+        29.11.2023
+      </p>
+      <p
+        class="text-[1rem] font-[700] leading-[150%] text-dark group-hover:text-prime transition-all line-clamp-3"
+      >
+        iPhone 15 Pro и iPhone 15 Pro Max — революция или эволюция?
+      </p>
+    </div>
+  </a>
+</div>
+`;

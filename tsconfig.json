@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -18,9 +19,11 @@
       "name": "next"
     }],
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "@/*": ["./src/*"],
+      "@common/*": ["./src/components/common/*"],
+      "@ui/*": ["./src/components/ui/*"],
+    },
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "cypress/**/*.ts", "cypress/**/*.tsx", "cypress/tsconfig.json"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "**/*.spec.tsx"]
 }

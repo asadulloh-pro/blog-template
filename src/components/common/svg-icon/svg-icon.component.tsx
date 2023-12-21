@@ -1,12 +1,12 @@
 import { FC, HTMLProps } from "react";
 
 export type SvgIconType = {
-  iconName: "logo";
+  iconName: "logo" | "eye" | "time";
   width?: number;
 
   height?: number;
 } & Pick<HTMLProps<HTMLElement>, "className">;
-const SvgIcon: FC<SvgIconType> = ({ iconName, className }) => {
+export const SvgIcon: FC<SvgIconType> = ({ iconName, className }) => {
   return (
     <svg
       className={className}
@@ -21,4 +21,3 @@ const SvgIcon: FC<SvgIconType> = ({ iconName, className }) => {
     </svg>
   );
 };
-export default SvgIcon;

@@ -32,6 +32,11 @@ const config: Config = {
         "button-default-active":
           "0px 0px 0px 4px #F2F4F5, 0px 1px 2px 0px rgba(16, 24, 40, 0.05)",
       },
+      lineClamp: {
+        1: 1,
+        2: 2,
+        3: 3,
+      },
     },
   },
   plugins: [],
