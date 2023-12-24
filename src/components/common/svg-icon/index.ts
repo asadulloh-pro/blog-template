@@ -1,2 +1,2 @@
-import { SvgIcon } from "./svg-icon.component";
+import SvgIcon from "./svg-icon.component";
 export default SvgIcon;

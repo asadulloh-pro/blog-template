@@ -3,7 +3,7 @@
 exports[`renders Additional Card component 1`] = `
 <div>
   <a
-    class="flex gap-[1rem]  group bg-prime-light rounded-[0.75rem] overflow-hidden max-w-[35.5rem] w-full"
+    class="flex gap-[1rem]  group bg-prime-light rounded-[0.75rem] overflow-hidden  w-full "
     href="/"
   >
     <div>
@@ -41,7 +41,7 @@ exports[`renders Additional Card component 1`] = `
 exports[`renders Primary Card component 1`] = `
 <div>
   <a
-    class="grid gap-[1rem] max-w-[24rem] group w-full"
+    class="grid gap-[1rem] max-w-[24rem] group w-full "
     href="/"
   >
     <div>
@@ -123,7 +123,7 @@ exports[`renders Primary Card component 1`] = `
 exports[`renders Secondary Card component 1`] = `
 <div>
   <a
-    class="flex gap-[1rem] max-w-[24rem] group bg-gray-sec rounded-[0.75rem] overflow-hidden w-full"
+    class="flex gap-[1rem] max-w-[24rem] group bg-gray-sec rounded-[0.75rem] overflow-hidden w-full "
     href="/"
   >
     <div>

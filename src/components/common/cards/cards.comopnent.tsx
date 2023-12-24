@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-import { FC, useMemo } from "react";
+import { FC, HTMLProps, useMemo } from "react";
 import { BlogCardType } from "./types";
 
 export const cards = {
@@ -7,16 +7,15 @@ export const cards = {
   secondary: dynamic(() => import("./card-types/secondary.component")),
   alpha: dynamic(() => import("./card-types/alpha.component")),
   additional: dynamic(() => import("./card-types/additional.component")),
-  bettta: dynamic(() => import("./card-types/additional.component")),
 };
 
 export type CardsType = {
   type?: keyof typeof cards;
   data: BlogCardType;
-};
+} & Pick<HTMLProps<HTMLElement>, "className">;
 
 const Cards: FC<CardsType> = (props) => {
-  const { type = "primary", data } = props;
+  const { type = "primary", data, className } = props;
   const Component = useMemo(() => cards[type], [type]);
   return (
     <Component
@@ -28,6 +27,7 @@ const Cards: FC<CardsType> = (props) => {
       minute={data.minute}
       tag={data.tag}
       view={data.view}
+      className={className}
     />
   );
 };

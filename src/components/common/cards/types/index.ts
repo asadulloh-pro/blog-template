@@ -6,4 +6,5 @@ export type BlogCardType = {
   view: number;
   minute: number;
   created_at: string;
+  className?: string;
 };

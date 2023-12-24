@@ -1,15 +1,19 @@
 import Image from "next/image";
-import { FC, memo } from "react";
+import { FC, memo, useMemo } from "react";
 import { BlogCardType } from "../types";
 import Link from "next/link";
 
 const Additional: FC<BlogCardType> = (props) => {
-  const { image, title, tag } = props;
+  const { image, title, tag, className } = props;
+  const classNames = useMemo(() => {
+    return [
+      "flex gap-[1rem]  group bg-prime-light rounded-[0.75rem] overflow-hidden  w-full",
+      className,
+    ].join(" ");
+  }, [className]);
+
   return (
-    <Link
-      href={"/"}
-      className="flex gap-[1rem]  group bg-prime-light rounded-[0.75rem] overflow-hidden max-w-[35.5rem] w-full"
-    >
+    <Link href={"/"} className={classNames}>
       <div>
         <Image
           src={image}

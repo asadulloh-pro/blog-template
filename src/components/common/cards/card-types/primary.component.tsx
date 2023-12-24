@@ -1,13 +1,17 @@
 import Image from "next/image";
-import { FC, memo } from "react";
+import { FC, memo, useMemo } from "react";
 import { BlogCardType } from "../types";
 import Link from "next/link";
 import SvgIcon from "@common/svg-icon";
 
 const Primary: FC<BlogCardType> = (props) => {
-  const { image, title, tag, created_at, minute, view } = props;
+  const { image, title, tag, created_at, minute, view, className } = props;
+  const classNames = useMemo(() => {
+    return ["grid gap-[1rem] max-w-[24rem] group w-full", className].join(" ");
+  }, [className]);
+
   return (
-    <Link href={"/"} className="grid gap-[1rem] max-w-[24rem] group w-full">
+    <Link href={"/"} className={classNames}>
       <div>
         <Image
           src={image}

@@ -1,3 +1,4 @@
+[
   {
     "id": "1",
     "image": "/mock/cardimage.jpg",
@@ -6,4 +7,32 @@
     "view": 124,
     "minute": 9,
     "created_at": "29.11.2023"
+  },
+  {
+    "id": "2",
+    "image": "/mock/cardimage.jpg",
+    "tag": "Iphone",
+    "title": "iPhone 15 Pro и iPhone 15 Pro Max — революция или эволюция?",
+    "view": 124,
+    "minute": 9,
+    "created_at": "29.11.2023"
+  },
+  {
+    "id": "3",
+    "image": "/mock/cardimage.jpg",
+    "tag": "Iphone",
+    "title": "iPhone 15 Pro и iPhone 15 Pro Max — революция или эволюция?",
+    "view": 124,
+    "minute": 9,
+    "created_at": "29.11.2023"
+  },
+  {
+    "id": "4",
+    "image": "/mock/cardimage.jpg",
+    "tag": "Iphone",
+    "title": "iPhone 15 Pro и iPhone 15 Pro Max — революция или эволюция?",
+    "view": 124,
+    "minute": 9,
+    "created_at": "29.11.2023"
   }
+]

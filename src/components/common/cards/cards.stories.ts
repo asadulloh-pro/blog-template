@@ -9,12 +9,6 @@ const meta = {
   parameters: {
     layout: "centered",
   },
-  argTypes: {
-    type: {
-      options: ["primary", "secondary", "additional", "alpha"],
-      control: { type: "radio" },
-    },
-  },
 } satisfies Meta<CardsType>;
 
 export default meta;
@@ -23,6 +17,29 @@ type Story = StoryObj<typeof meta>;
 export const Primary: Story = {
   args: {
     type: "primary",
-    data: data,
+    data: data[0],
+  },
+};
+
+export const Secondary: Story = {
+  args: {
+    type: "secondary",
+    data: data[0],
+  },
+};
+
+export const Additional: Story = {
+  args: {
+    type: "additional",
+    data: data[0],
+    className: "max-w-[35.5rem]",
+  },
+};
+
+export const Alpha: Story = {
+  args: {
+    type: "alpha",
+    data: data[0],
+    className: "min-w-[47.8rem]",
   },
 };

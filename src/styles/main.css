@@ -1,3 +1,4 @@
+@import "keen-slider/keen-slider.min.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,8 +10,17 @@ html {
 
 * {
   font-family: "Golos Text", sans-serif;
+  box-sizing: border-box;
 }
 
 .gradient-bottom-top {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+#storybook-root {
+  /* width: 100%; */
+}
+
+.alphagrid {
+  grid-template-columns: 4fr 2fr;
 }

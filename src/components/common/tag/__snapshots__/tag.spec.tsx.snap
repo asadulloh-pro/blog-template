@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Tag component 1`] = `
+<div>
+  <span
+    class="text-center text-[0.875rem] font-[500] leading-[1.25rem] px-[1rem] py-[0.62rem] rounded-[6.25rem] text-prime border border-solid border-prime cursor-pointer "
+  >
+    Смартфоны
+  </span>
+</div>
+`;

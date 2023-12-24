@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Banner Slider component 1`] = `
+<div>
+  <img
+    alt="banner image"
+    class="w-full max-h-[20.5rem] rounded-[0.75rem] object-cover object-center"
+    data-nimg="1"
+    decoding="async"
+    height="100"
+    loading="lazy"
+    src="/_next/image?url=%2Fmock%2Fbanner.jpg&w=640&q=75"
+    srcset="/_next/image?url=%2Fmock%2Fbanner.jpg&w=384&q=75 1x, /_next/image?url=%2Fmock%2Fbanner.jpg&w=640&q=75 2x"
+    style="color: transparent;"
+    width="300"
+  />
+</div>
+`;

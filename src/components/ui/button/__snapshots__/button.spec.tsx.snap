@@ -3,7 +3,7 @@
 exports[`renders Button component 1`] = `
 <div>
   <button
-    class="py-[0.5rem] px-[0.88rem] text-[0.875rem] font-[500] leading-[1.25rem] rounded-[0.5rem] bg-prime hover:bg-prime-dark text-light shadow-button active:shadow-button-primary-active transition-all active:transition-all disabled:opacity-[0.3] disabled:pointer-events-none"
+    class="bg-prime hover:bg-prime-dark text-light shadow-button active:shadow-button-primary-active transition-all active:transition-all stroke-light disabled:opacity-[0.3] disabled:pointer-events-none py-[0.5rem] px-[0.88rem] text-[0.875rem] font-[500] leading-[1.25rem] rounded-[0.5rem]"
     type="button"
   />
 </div>

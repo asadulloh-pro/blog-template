@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Product Card component 1`] = `
+<div>
+  <div
+    class="flex flex-col "
+  >
+    <div>
+      <img
+        alt="Primary card's image"
+        class="w-full h-[10rem] max-h-[10rem] object-cover object-center rounded-[0.375rem]"
+        data-nimg="1"
+        decoding="async"
+        height="100"
+        loading="lazy"
+        src="/_next/image?url=%2Fmock%2Fcardimage.jpg&w=256&q=75"
+        srcset="/_next/image?url=%2Fmock%2Fcardimage.jpg&w=128&q=75 1x, /_next/image?url=%2Fmock%2Fcardimage.jpg&w=256&q=75 2x"
+        style="color: transparent; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;"
+        width="100"
+      />
+    </div>
+    <div
+      class="mt-[0.75rem]"
+    >
+      <p
+        class="text-[0.875rem] font-[400] text-dark"
+      >
+        Смартфон OPPO Find N3 16/512GB Black
+      </p>
+      <p
+        class="text-[1.25rem] font-[700] leading-[150%] text-dark mt-[0.75rem]"
+      >
+        5 000 000
+         UZS
+      </p>
+    </div>
+    <div
+      class="mt-[1rem]"
+    >
+      <a
+        href="/product/1"
+      >
+        <button
+          class="bg-prime hover:bg-prime-dark text-light shadow-button active:shadow-button-primary-active transition-all active:transition-all stroke-light w-full py-[0.62rem] px-[1.12rem] text-[1rem] font-[500] leading-[1.5rem] rounded-[0.625rem]"
+          type="button"
+        >
+          К товару
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+`;

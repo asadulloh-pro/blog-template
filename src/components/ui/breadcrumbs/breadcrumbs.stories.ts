@@ -1,23 +1,21 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Button, ButtonType } from "./button.component";
+import Breadcrumbs, { BreadcrumbsType } from "./breadcrumbs.component";
+import data from "@/constants/bread-crumbs-data.json";
 
 const meta = {
-  title: "Button",
-  component: Button,
+  title: "Breadcrumbs",
+  component: Breadcrumbs,
   tags: ["autodocs"],
   parameters: {
     layout: "centered",
   },
-} satisfies Meta<ButtonType>;
+} satisfies Meta<BreadcrumbsType>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
   args: {
-    children: "Example Button",
-    type: "primary",
-    size: "md",
-    onClick: () => {},
+    crumbs: data,
   },
 };

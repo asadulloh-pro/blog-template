@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Breadcrumbs component 1`] = `
+<div>
+  <div
+    class="flex overflow-x-hidden "
+  >
+    <ol
+      class="flex items-center gap-[0.5rem] overflow-x-auto removeScrollbar"
+      itemscope=""
+      itemtype="https://schema.org/BreadcrumbList"
+    >
+      <li
+        itemprop="itemListElement"
+        itemscope=""
+        itemtype="https://schema.org/ListItem"
+      >
+        <a
+          class="flex items-center gap-[0.5rem] text-[0.875rem]  font-[400] text-gray"
+          href="/1"
+          itemid="/1"
+          itemprop="item"
+          itemscope=""
+          itemtype="https://schema.org/Thing"
+        >
+          <span
+            class="hover:text-dark whitespace-nowrap"
+            itemprop="name"
+          >
+            Главная страница
+          </span>
+          <span>
+            /
+          </span>
+        </a>
+        <meta
+          content="1"
+          itemprop="position"
+        />
+      </li>
+      <li
+        itemprop="itemListElement"
+        itemscope=""
+        itemtype="https://schema.org/ListItem"
+      >
+        <a
+          class="flex items-center gap-[0.5rem] text-[0.875rem]  font-[400] text-gray"
+          href="/2"
+          itemid="/2"
+          itemprop="item"
+          itemscope=""
+          itemtype="https://schema.org/Thing"
+        >
+          <span
+            class="hover:text-dark whitespace-nowrap"
+            itemprop="name"
+          >
+            Обзоры
+          </span>
+          <span>
+            /
+          </span>
+        </a>
+        <meta
+          content="2"
+          itemprop="position"
+        />
+      </li>
+      <li
+        itemprop="itemListElement"
+        itemscope=""
+        itemtype="https://schema.org/ListItem"
+      >
+        <div
+          class="flex items-center gap-[0.5rem] pointer-events-none"
+        >
+          <span
+            class="text-[0.875rem]  font-[400] hover:text-dark whitespace-nowrap text-dark"
+            itemprop="name"
+          >
+            Обзор OPPO Find N3: гибкий экран и пять камер
+          </span>
+        </div>
+        <meta
+          content="3"
+          itemprop="position"
+        />
+      </li>
+    </ol>
+  </div>
+</div>
+`;

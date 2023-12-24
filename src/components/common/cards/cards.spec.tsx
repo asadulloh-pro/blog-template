@@ -1,10 +1,10 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import data from "../../../constants/card-data.json";
+import mock from "../../../constants/card-data.json";
 import PrimaryComponent from "./card-types/primary.component";
 import SecondaryComponent from "./card-types/secondary.component";
 import AdditionalComponent from "./card-types/additional.component";
-
+const data = mock[0];
 it("renders Primary Card component", () => {
   const { container } = render(
     <PrimaryComponent
